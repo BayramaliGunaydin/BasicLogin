@@ -1,0 +1,125 @@
+#out-conteiner{
+    display: flex;
+    justify-content: flex-start;
+    height: 800px;   
+}
+  #facegoogle{
+     position: relative;
+     left: 0px;
+     width: 40%;
+     background-color: rgb(177, 175, 175);
+  }
+  #or{
+      width: 20%;
+      background-color: rgb(177, 175, 175);
+  }
+  #login{
+      position: relative;
+      width: 40%;
+      background-color: rgb(177, 175, 175);
+  }
+  #facebutton{
+      background-color: #3B579D;
+      border: 1px solid #3B579D;
+      border-radius: 4px;
+      height: 48px;
+      width: 300px;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      position: relative;
+      top: 35%;
+      left: 40%;
+      text-align: center;
+  }
+  #googlebutton{
+      background-color: #DB4A39;
+      border: 1px solid #DB4A39;
+      border-radius: 4px;
+      height: 48px;
+      width: 300px;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      position: relative;
+      top: 35%;
+      left: 40%;
+      text-align: center;
+  }
+  #faceimg{
+        height: 40px;
+        width: 40px;
+        position: relative;
+        top: 36.5%;
+        left: 46%;
+        z-index: 1;
+  }
+  #googleimg{
+        height: 40px;
+        width: 40px;
+        position: relative;
+        top: 37%;
+        left: 46.5%;
+        z-index: 1;
+  }
+  #orimg{
+      height: 300px;
+      position: relative;
+      left: 20%;
+      top: 12%;
+  }
+  #loginbutton{
+      background-color:green;
+      border: none;
+      border-radius: 4px;
+      color: white;
+      width: 315px;
+      height: 48px;
+      position: relative;
+      top: 36%;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      left: 10%;
+  }
+  #loginbutton:hover{
+      background-color: #046115;
+  }
+  #forgot:hover{
+      background-color: #610303;
+  }
+  #facebutton:hover{
+   background-color: #2d4379;
+  }
+  #googlebutton:hover{
+   background-color: #832c23;
+  }
+  #name{
+      position: relative;
+      width: 300px;
+      padding: 5px;
+      top: 30%;
+      left: 10%;
+  }
+  #password{
+      position: relative;
+      width: 300px;
+      padding: 5px;
+      top: 32%;
+      left: 10%;
+  }
+  #forgot{
+      position: relative;
+      width: 315px;
+      height: 48px;
+      top: 38%;
+      left: 10%;
+      background-color: red;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+  }
+  #message{
+      text-align: center;
+  }
